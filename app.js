@@ -3,7 +3,9 @@
 import express from 'express';
 import cors from 'cors';
 import { json, urlencoded } from 'body-parser';
-require('dotenv').config();
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 const Console = console;
