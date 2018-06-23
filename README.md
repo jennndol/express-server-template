@@ -16,6 +16,10 @@ Using the following packages:
     "express": "^4.16.3",
     "jsonwebtoken": "^8.2.2",
     "mocha": "^5.2.0",
-    "nyc": "^12.0.2"
+    "nyc": "^12.0.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.19.1",
+    "rimraf": "^2.6.2"
 
  Don't forget to follow me on github guys, thank you. I love you :)
