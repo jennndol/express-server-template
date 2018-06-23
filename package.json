@@ -1,14 +1,14 @@
 {
-  "name": "qluevisionbackend",
+  "name": "express-server-template",
   "version": "1.0.0",
-  "description": "Qlue Vision Backend Server",
+  "description": "Express Server Template",
   "main": "app.js",
   "scripts": {
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "start": "yarn build && PORT=3000 node dist/app.js",
     "test": "PORT=3001 NODE_ENV=test nyc mocha --require babel-core/register"
   },
-  "license": "MIT",
+  "license": "Unlicense",
   "dependencies": {
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
