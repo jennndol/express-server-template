@@ -22,6 +22,6 @@ app.use((0, _cors2.default)());
 app.use((0, _bodyParser.json)());
 app.use((0, _bodyParser.urlencoded)({ extended: false }));
 
-app.listen(3000, function () {
-	Console.log('The system is run on port 3000');
+app.listen(process.env.PORT, function () {
+	Console.log('The system is run on port', process.env.PORT);
 });

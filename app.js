@@ -12,6 +12,6 @@ app.use(cors());
 app.use(json());
 app.use(urlencoded({ extended: false }));
 
-app.listen(3000, () => {
-	Console.log('The system is run on port 3000');
+app.listen(process.env.PORT, () => {
+	Console.log('The system is run on port', process.env.PORT);
 });
