@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "start": "yarn build && PORT=3000 node dist/app.js",
-    "test": "PORT=3001 NODE_ENV=test nyc mocha --require babel-core/register"
+    "test": "PORT=3001 nyc mocha --require babel-core/register"
   },
   "license": "Unlicense",
   "dependencies": {
