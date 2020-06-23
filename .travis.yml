@@ -2,6 +2,4 @@ language: node_js
 script: yarn test
 node_js:
   - "stable"
-cache:
-  directories:
-    - "node_modules"
+cache: yarn
