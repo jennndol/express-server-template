@@ -1,7 +1,5 @@
-before_install:
-  - sudo apt-get update
 language: node_js
+script: yarn test
 node_js:
-  - 12
-script: npm run test
-cache: npm
+  - "stable"
+cache: yarn
