@@ -2,6 +2,9 @@
   "name": "express-server-template",
   "version": "1.0.0",
   "description": "Express Server Template",
+  "contributors": [
+    "Luthfi"
+  ],
   "main": "app.js",
   "scripts": {
     "start": "PORT=3000 nodemon app.js --exec babel-node --presets babel-preset-env",
